@@ -11,7 +11,7 @@ import SwiftUI
 struct Geometry_and_Animations_SwiftUI_App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabViews()
         }
     }
 }
