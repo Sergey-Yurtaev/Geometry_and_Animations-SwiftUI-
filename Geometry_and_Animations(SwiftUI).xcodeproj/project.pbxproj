@@ -16,6 +16,7 @@
 		A1AB685A288877F900875290 /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AB6859288877F900875290 /* GradientRectangles.swift */; };
 		A1AB685C2888780700875290 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AB685B2888780700875290 /* PathView.swift */; };
 		A1AB685E2888781500875290 /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AB685D2888781500875290 /* CurvesView.swift */; };
+		A1AB686028896EC200875290 /* HW.HypocycloidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AB685F28896EC200875290 /* HW.HypocycloidView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		A1AB6859288877F900875290 /* GradientRectangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
 		A1AB685B2888780700875290 /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
 		A1AB685D2888781500875290 /* CurvesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
+		A1AB685F28896EC200875290 /* HW.HypocycloidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW.HypocycloidView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				A1AB6859288877F900875290 /* GradientRectangles.swift */,
 				A1AB685B2888780700875290 /* PathView.swift */,
 				A1AB685D2888781500875290 /* CurvesView.swift */,
+				A1AB685F28896EC200875290 /* HW.HypocycloidView.swift */,
 				A1AB684B2888770E00875290 /* Assets.xcassets */,
 				A1AB684D2888770E00875290 /* Preview Content */,
 			);
@@ -154,6 +157,7 @@
 			files = (
 				A1AB684A2888770D00875290 /* ContentView.swift in Sources */,
 				A1AB685E2888781500875290 /* CurvesView.swift in Sources */,
+				A1AB686028896EC200875290 /* HW.HypocycloidView.swift in Sources */,
 				A1AB685C2888780700875290 /* PathView.swift in Sources */,
 				A1AB685A288877F900875290 /* GradientRectangles.swift in Sources */,
 				A1AB68482888770D00875290 /* Geometry_and_Animations_SwiftUI_App.swift in Sources */,

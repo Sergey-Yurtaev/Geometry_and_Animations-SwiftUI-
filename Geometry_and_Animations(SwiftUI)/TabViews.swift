@@ -18,6 +18,11 @@ struct TabViews: View {
             
             ShapesView()
                 .tabItem {
+                    Image(systemName: "circle")
+                    Text("Shapes View")
+                }
+            HypocycloidView(width: 250, height: 250)
+                .tabItem {
                     Image(systemName: "pencil.and.outline")
                     Text("Shapes View")
                 }
