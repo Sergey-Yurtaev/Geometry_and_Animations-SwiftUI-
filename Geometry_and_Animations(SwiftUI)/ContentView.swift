@@ -29,7 +29,13 @@ struct ContentView: View {
             
             if showShape {
                 GradientRectangles(width: 250, height: 250)
-                    .animation(.default)
+                    .offset(x: showShape ? 0 : -UIScreen.main.bounds.width)
+                    .animation(.interpolatingSpring(
+                        mass: 1,
+                        stiffness: 200,
+                        damping: 10,
+                        initialVelocity: 0)
+                    )
                     .transition(.transition)
             }
             
